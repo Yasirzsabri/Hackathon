@@ -8,7 +8,7 @@ class App extends Component{
     return(
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
+          
           <h1 className="App-title">Google Map</h1>
         </header> 
         <Map google={this.props.google} zoom={14}>
@@ -22,6 +22,7 @@ class App extends Component{
             </div>
           </InfoWindow>
         </Map>
+      
 
       </div>
     )
