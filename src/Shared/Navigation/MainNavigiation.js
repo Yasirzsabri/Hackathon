@@ -2,11 +2,12 @@ import React from "react";
 import NavLinks from "./NavLinks";
 import MainHeader from "./MainHeader";
 
-const MainNavigiation = () => {
+const MainNavigiation = (props) => {
   return (
     <React.Fragment>
       <MainHeader>
         <nav>
+          nav betweet main header
           <NavLinks />
         </nav>
       </MainHeader>
