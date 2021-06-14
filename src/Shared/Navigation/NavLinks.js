@@ -1,15 +1,22 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-
+import React, { useContext } from "react";
+import { Link, useHistory } from "react-router-dom";
 const NavLinks = () => {
+  const history = useHistory();
   return (
-  <ul>
-    nav links on navLinks page
-    <li>
-    <NavLink to ='/find_atm' exact >Find ATM</NavLink>
-    </li>
-  </ul>
-  )
-}
+    <ul>
+      nav links on navLinks page
+      <li>
+        <Link to ={{ pathname: "https://www.google.ca/maps/search/atms+near+me" }} target='_blank' >Find Atm Now
 
-export default NavLinks
+        </Link>
+      </li>
+    </ul>
+  );
+};
+
+export default NavLinks;
+// onClick = {
+//   () =>{
+//     history.push()
+//   }
+// }
