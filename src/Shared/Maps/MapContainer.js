@@ -56,5 +56,5 @@ onClose = props => {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDfes4RqGFY-MjAAt6v38BFyE9jgSNSLUs",
+  apiKey: "AIzaSyDbDpMTqqNSboMqzKOqzuN9wBgfcYH456k",
 })(MapContainer);
